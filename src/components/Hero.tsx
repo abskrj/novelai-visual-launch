@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ArrowRight } from 'lucide-react';
+import { Sparkles, ArrowRight, Wand2 } from 'lucide-react';
+import ImageComparison from './ImageComparison';
 
 const Hero = () => {
   return (
@@ -21,18 +22,19 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight fade-in-delay-1">
-            Create Visual Novels <br className="hidden sm:block" />
-            <span className="text-gradient">with AI Magic</span>
+            Transform Reality <br className="hidden sm:block" />
+            <span className="text-gradient">into Visual Novels</span>
           </h1>
           
           <p className="text-xl max-w-3xl mx-auto text-muted-foreground mb-8 fade-in-delay-2">
-            Transform your ideas into stunning visual novels with our AI-powered platform. 
-            Generate characters, scenes, and storylines with just a few clicks.
+            Get AI assistance for your story writing and scene generation. 
+            Turn everyday moments into beautiful visual novels with just a few clicks.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in-delay-3">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
-              Get Started Free
+              <Wand2 className="mr-2 h-4 w-4" /> 
+              Create Your Story
             </Button>
             <Button variant="outline" size="lg" className="group">
               See Examples
@@ -42,19 +44,12 @@ const Hero = () => {
         </div>
         
         <div className="mt-16 max-w-5xl mx-auto relative fade-in-delay-4">
-          <div className="aspect-[16/9] relative rounded-xl overflow-hidden border bg-background shadow-xl">
-            <img 
-              src="/lovable-uploads/89146f2c-b2ca-4ae4-a041-a48e6b48730b.png" 
-              alt="Visual Novel Character with Sunset Background"
-              className="object-cover w-full h-full"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-              <div className="p-6 text-white">
-                <h3 className="text-xl font-medium">Create stunning visual novels with ease</h3>
-                <p className="text-white/80">Our intuitive interface makes it simple to bring your stories to life</p>
-              </div>
-            </div>
-          </div>
+          <ImageComparison 
+            beforeImage="/lovable-uploads/9ef1b2b4-9689-4326-9ac6-e01b619ab91d.png"
+            afterImage="/lovable-uploads/d0720a2f-9068-49c3-923b-9af02b317891.png"
+            beforeLabel="Reality"
+            afterLabel="AI Novel Scene"
+          />
           
           {/* Floating badges */}
           <div className="absolute -top-8 -right-8 bg-accent px-4 py-2 rounded-lg shadow-lg text-white animate-float">
