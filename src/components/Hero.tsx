@@ -27,19 +27,18 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl max-w-3xl mx-auto text-muted-foreground mb-8 fade-in-delay-2">
-            Get AI assistance for your story writing and scene generation. 
-            Turn everyday moments into beautiful visual novels with just a few clicks.
+            Get AI assistance for your story writing and scene generation.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in-delay-3">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
               <Wand2 className="mr-2 h-4 w-4" /> 
-              Create Your Story
+              Try Next Gen Writing
             </Button>
-            <Button variant="outline" size="lg" className="group">
+            {/* <Button variant="outline" size="lg" className="group">
               See Examples
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+            </Button> */}
           </div>
         </div>
         
@@ -47,8 +46,8 @@ const Hero = () => {
           <ImageComparison 
             beforeImage="/lovable-uploads/9ef1b2b4-9689-4326-9ac6-e01b619ab91d.png"
             afterImage="/lovable-uploads/d0720a2f-9068-49c3-923b-9af02b317891.png"
-            beforeLabel="Reality"
-            afterLabel="AI Novel Scene"
+            beforeLabel="Reality Scene"
+            afterLabel="Anime Scene"
           />
           
           {/* Floating badges */}

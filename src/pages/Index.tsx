@@ -48,8 +48,8 @@ const Index = () => {
         <Hero />
         <Features />
         <HowItWorks />
-        <Gallery />
-        <Testimonials />
+        {/* <Gallery /> */}
+        {/* <Testimonials /> */}
         
         {/* CTA Section */}
         <section className="py-24 px-6 bg-muted/30">
@@ -58,7 +58,7 @@ const Index = () => {
               Ready to Create Your <span className="text-gradient">Visual Novel?</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Join thousands of creators who are bringing their stories to life with NovelAI.
+              Join hundreds of creators who are bringing their stories to life with NovelAI.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90">
