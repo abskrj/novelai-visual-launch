@@ -36,8 +36,6 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Examples</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
             </ul>
           </div>

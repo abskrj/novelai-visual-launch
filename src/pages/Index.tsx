@@ -5,7 +5,6 @@ import Features from '../components/Features';
 import HowItWorks from '../components/HowItWorks';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
-import Pricing from '../components/Pricing';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { Sparkles } from 'lucide-react';
@@ -22,8 +21,6 @@ const Index = () => {
           
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Features</a>
-            <a href="#" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Examples</a>
-            <a href="#" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Pricing</a>
             <a href="#" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Community</a>
           </nav>
           
@@ -53,7 +50,6 @@ const Index = () => {
         <HowItWorks />
         <Gallery />
         <Testimonials />
-        <Pricing />
         
         {/* CTA Section */}
         <section className="py-24 px-6 bg-muted/30">
