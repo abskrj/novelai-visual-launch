@@ -44,8 +44,8 @@ const Hero = () => {
         <div className="mt-16 max-w-5xl mx-auto relative fade-in-delay-4">
           <div className="aspect-[16/9] relative rounded-xl overflow-hidden border bg-background shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=2070&q=80" 
-              alt="AI Novel Builder Interface"
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2070&q=80" 
+              alt="Visual Novel Creation Interface"
               className="object-cover w-full h-full"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
