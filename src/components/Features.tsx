@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Cpu, Paintbrush, BookOpen, SlidersHorizontal, CloudLightning, Users } from 'lucide-react';
+import { Cpu, Paintbrush, BookOpen, SlidersHorizontal, CloudLightning, Users, Languages, CloudUpload, HardDrive, HardDriveDownload, HardDriveUpload } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Features = () => {
@@ -34,6 +34,26 @@ const Features = () => {
       icon: <Users className="h-8 w-8 text-primary" />,
       title: "Community Support",
       description: "Join a thriving community of creators, share assets, and collaborate on projects."
+    },
+    {
+      icon: <Languages className="h-8 w-8 text-primary" />,
+      title: "AI Translation",
+      description: "Automatically translate your stories to 100+ languages with our AI-powered translation tools."
+    },
+    {
+      icon: <HardDrive className="h-8 w-8 text-primary" />,
+      title: "Cross-Platform Export",
+      description: "Export your visual novels to any device - Mac, Windows, Linux, Phone, PS5, and more."
+    },
+    {
+      icon: <CloudUpload className="h-8 w-8 text-primary" />,
+      title: "Cloud Backup",
+      description: "Never lose your work with automatic cloud-based backups of all your projects."
+    },
+    {
+      icon: <Users className="h-8 w-8 text-primary" />,
+      title: "Team Collaboration",
+      description: "Work together with multiple team members on the same project in real-time."
     }
   ];
 
