@@ -26,11 +26,11 @@ const Index = () => {
           
           <div className="flex items-center space-x-4">
             <Button variant="ghost" className="text-sm hidden md:inline-flex">
-              Log in
+              Coming Soon
             </Button>
             <Button className="text-sm bg-primary hover:bg-primary/90 hidden md:inline-flex">
               <Sparkles className="h-4 w-4 mr-2" />
-              Sign Up Free
+              Coming Soon
             </Button>
             <Button variant="ghost" className="md:hidden" size="icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-menu">
@@ -63,10 +63,10 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90">
                 <Sparkles className="h-4 w-4 mr-2" />
-                Start Creating Free
+                Coming Soon
               </Button>
               <Button size="lg" variant="outline">
-                Book a Demo
+                Coming Soon
               </Button>
             </div>
           </div>

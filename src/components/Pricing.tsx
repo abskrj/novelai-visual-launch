@@ -22,7 +22,7 @@ const Pricing = () => {
         "NovelAI branding",
         "No custom assets"
       ],
-      cta: "Start Free",
+      cta: "Coming Soon",
       isPopular: false
     },
     {
@@ -41,7 +41,7 @@ const Pricing = () => {
         "Analytics dashboard"
       ],
       limitations: [],
-      cta: "Start 7-Day Trial",
+      cta: "Coming Soon",
       isPopular: true
     },
     {
@@ -60,7 +60,7 @@ const Pricing = () => {
         "API access"
       ],
       limitations: [],
-      cta: "Contact Sales",
+      cta: "Coming Soon",
       isPopular: false
     }
   ];

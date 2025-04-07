@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in-delay-3">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
               <Wand2 className="mr-2 h-4 w-4" /> 
-              Try Next Gen Writing
+              Coming Soon
             </Button>
             {/* <Button variant="outline" size="lg" className="group">
               See Examples

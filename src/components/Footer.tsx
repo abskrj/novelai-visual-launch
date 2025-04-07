@@ -57,7 +57,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-2">
               <Input type="email" placeholder="Enter your email" className="max-w-xs" />
-              <Button type="submit">Subscribe</Button>
+              <Button type="submit">Coming Soon</Button>
             </div>
           </div>
         </div>
